@@ -5,6 +5,8 @@ import Section3 from "./component/Home/Section3";
 import Industrie from "./component/Home/Industrie";
 import OurProject from "./component/Home/OurProject";
 import OurBlogs from "./component/Home/OurBlogs";
+import Contacts from "./component/Home/Contacts";
+import MoreInfo from "./component/Home/MoreInfo";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Industrie />
       <OurProject />
       <OurBlogs />
+      <Contacts />
+      <MoreInfo />
     </>
   );
 }
